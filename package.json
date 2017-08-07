@@ -1,7 +1,7 @@
 {
-  "name": "@unction/template",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@unction/applicators",
+  "version": "1.0.2",
+  "description": "Takes a list of functions and a list of values and applies the values to the functions",
   "keywords": [
     "unction",
     "functional"
@@ -42,9 +42,16 @@
     "flow": "0.2.3",
     "flow-bin": "0.51.1",
     "flow-typed": "2.1.3",
-    "tap": "10.3.3"
+    "tap": "10.3.3",
+    "@unction/recordfrom": "^1.0.0"
   },
   "dependencies": {
+    "@unction/applicator": "^1.0.2",
+    "@unction/isarray": "^1.0.4",
+    "@unction/isobject": "^1.0.4",
+    "@unction/mapvalues": "^2.0.3",
+    "@unction/splat": "^1.0.2",
+    "@unction/zip": "^1.0.2",
     "ramda": "0.24.1"
   }
 }
