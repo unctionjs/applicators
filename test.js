@@ -4,7 +4,7 @@ import {test} from "tap"
 import recordfrom from "@unction/recordfrom"
 import {inc} from "ramda"
 import {dec} from "ramda"
-import applicators from "./"
+import applicators from "./source.js"
 
 test(({same, end}) => {
   same(
