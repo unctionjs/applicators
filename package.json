@@ -51,6 +51,7 @@
     "@unction/applicator": "1.0.3",
     "@unction/isarray": "1.0.5",
     "@unction/isobject": "1.0.5",
+    "@unction/keys": "2.0.0",
     "@unction/mapvalues": "2.0.4",
     "@unction/splat": "1.0.3",
     "@unction/zip": "1.0.3",

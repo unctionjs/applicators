@@ -3,6 +3,7 @@ import isObject from "@unction/isobject"
 import mapValues from "@unction/mapvalues"
 import splat from "@unction/splat"
 import applicator from "@unction/applicator"
+import keys from "@unction/keys"
 import {equals} from "ramda"
 import zip from "@unction/zip"
 
@@ -14,7 +15,7 @@ export default function applicators (unctions: Array<ValueType => any>): Functio
       throw new Error("left and right werent the same size")
     }
 
-    if (isObject(iterable) && !equals(Object.keys(unctions))(Object.keys(iterable))) {
+    if (isObject(iterable) && !equals(keys(unctions))(keys(iterable))) {
       throw new Error("left and right had different keys")
     }
 
