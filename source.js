@@ -7,10 +7,10 @@ import keys from "@unction/keys"
 import {equals} from "ramda"
 import zip from "@unction/zip"
 
-export default function applicators (unctions: Array<ValueType => any>): Function {
+export default function applicators (unctions: Array<mixed => mixed> | RecordType<KeyType, mixed => mixed>): Function {
   const zipUnctions = zip(unctions)
 
-  return function applicatorsUnctions (iterable: Array<ValueType>): Array<any> {
+  return function applicatorsUnctions (iterable: ArrayType | RecordType): ArrayType | RecordType {
     if (isArray(iterable) && unctions.length !== iterable.length) {
       throw new Error("left and right werent the same size")
     }

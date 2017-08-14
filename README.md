@@ -1,11 +1,10 @@
 # @unction/applicators
 
-
 ![Tests][BADGE_TRAVIS]
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> Iterable<ValueType -> ValueType> -> Iterable<ValueType> -> Array<ValueType>
+> (Array<mixed -> mixed> | RecordType<KeyType, mixed -> mixed>)<T> -> (ArrayType | RecordType)<T> -> (ArrayType | RecordType)<T>
 
 Takes a list of functions and a list of values and applies the values to the functions.
 
@@ -51,6 +50,5 @@ returns
 ```
 
 [BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/applicators.svg?maxAge=2592000&style=flat-square
-
 [BADGE_STABILITY]: https://img.shields.io/badge/stability-strong-green.svg?maxAge=2592000&style=flat-square
 [BADGE_DEPENDENCY]: https://img.shields.io/david/unctionjs/applicators.svg?maxAge=2592000&style=flat-square
