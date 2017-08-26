@@ -1,22 +1,15 @@
-import isArray from "@unction/isarray"
-import isObject from "@unction/isobject"
 import mapValues from "@unction/mapvalues"
 import splat from "@unction/splat"
 import applicator from "@unction/applicator"
-import keys from "@unction/keys"
-import {equals} from "ramda"
 import zip from "@unction/zip"
+import length from "@unction/length"
 
 export default function applicators (unctions: Array<mixed => mixed> | RecordType<KeyType, mixed => mixed>): Function {
   const zipUnctions = zip(unctions)
 
   return function applicatorsUnctions (iterable: ArrayType | RecordType): ArrayType | RecordType {
-    if (isArray(iterable) && unctions.length !== iterable.length) {
+    if (length(unctions) !== length(iterable)) {
       throw new Error("left and right werent the same size")
-    }
-
-    if (isObject(iterable) && !equals(keys(unctions))(keys(iterable))) {
-      throw new Error("left and right had different keys")
     }
 
     return mapValues(splat(applicator))(zipUnctions(iterable))

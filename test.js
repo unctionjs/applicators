@@ -44,3 +44,21 @@ test(({same, end}) => {
 
   end()
 })
+
+test(({throws, end}) => {
+  throws(
+    () =>
+      applicators([
+        recordfrom(["point", "x"]),
+        recordfrom(["point", "y"]),
+        recordfrom(["point", "z"]),
+      ])([
+        40.453,
+        2.2,
+        423.0,
+        56,
+      ])
+  )
+
+  end()
+})

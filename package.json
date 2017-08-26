@@ -18,6 +18,13 @@
   "repository": "github:unctionjs/tempLate",
   "bugs": "https://github.com/unctionjs/tempLate/issues",
   "main": "transpiled/source.js",
+  "nyc": {
+    "require": [
+      "babel-register"
+    ],
+    "sourceMap": false,
+    "instrument": false
+  },
   "scripts": {
     "prepublishOnly": "npm run build",
     "prepare": "flow-typed install",
@@ -56,16 +63,10 @@
     "@unction/isarray": "2.0.0",
     "@unction/isobject": "2.0.0",
     "@unction/keys": "3.0.0",
+    "@unction/length": "1.0.0",
     "@unction/mapvalues": "3.0.0",
     "@unction/splat": "2.0.0",
     "@unction/zip": "3.0.0",
     "ramda": "0.24.1"
-  },
-  "nyc": {
-    "require": [
-      "babel-register"
-    ],
-    "sourceMap": false,
-    "instrument": false
   }
 }
