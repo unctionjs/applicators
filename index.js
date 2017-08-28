@@ -7,11 +7,11 @@ import length from "@unction/length"
 export default function applicators (unctions: Array<mixed => mixed> | RecordType<KeyType, mixed => mixed>): Function {
   const zipUnctions = zip(unctions)
 
-  return function applicatorsUnctions (iterable: ArrayType | RecordType): ArrayType | RecordType {
-    if (length(unctions) !== length(iterable)) {
+  return function applicatorsUnctions (functor: ArrayType | RecordType): ArrayType | RecordType {
+    if (length(unctions) !== length(functor)) {
       throw new Error("left and right werent the same size")
     }
 
-    return mapValues(splat(applicator))(zipUnctions(iterable))
+    return mapValues(splat(applicator))(zipUnctions(functor))
   }
 }
