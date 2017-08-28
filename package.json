@@ -17,7 +17,7 @@
   "homepage": "https://github.com/unctionjs/tempLate#readme",
   "repository": "github:unctionjs/tempLate",
   "bugs": "https://github.com/unctionjs/tempLate/issues",
-  "main": "transpiled/source.js",
+  "main": "transpiled/index.js",
   "nyc": {
     "require": [
       "babel-register"
@@ -68,6 +68,5 @@
     "@unction/splat": "2.0.0",
     "@unction/zip": "3.0.0",
     "ramda": "0.24.1"
-  },
-  "main": "transpiled/index.js"
+  }
 }
