@@ -68,5 +68,8 @@
     "@unction/splat": "2.0.0",
     "@unction/zip": "3.0.0",
     "ramda": "0.24.1"
-  }
+  },
+  "files": [
+    "transpiled/index.js"
+  ]
 }
