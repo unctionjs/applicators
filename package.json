@@ -63,7 +63,7 @@
     "@unction/isobject": "2.3.0",
     "@unction/keys": "3.2.0",
     "@unction/length": "1.3.0",
-    "@unction/mapvalues": "3.3.0",
+    "@unction/mapvalues": "3.5.0",
     "@unction/splat": "2.3.0",
     "@unction/zip": "3.3.0",
     "ramda": "0.24.1"
