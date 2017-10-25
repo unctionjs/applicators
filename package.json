@@ -35,7 +35,7 @@
     "watch": "chokidar './index.js' './test.js' --command 'npm run ci --silent'"
   },
   "devDependencies": {
-    "@unction/recordfrom": "2.12.0",
+    "@unction/recordfrom": "2.13.0",
     "babel-cli": "6.24.1",
     "babel-core": "6.25.0",
     "babel-eslint": "7.2.3",
@@ -61,11 +61,11 @@
     "@unction/applicator": "2.5.0",
     "@unction/isarray": "2.8.0",
     "@unction/isobject": "2.8.0",
-    "@unction/keys": "3.11.0",
-    "@unction/length": "1.12.0",
-    "@unction/mapvalues": "3.13.0",
-    "@unction/splat": "2.12.0",
-    "@unction/zip": "3.12.0",
+    "@unction/keys": "3.12.0",
+    "@unction/length": "1.13.0",
+    "@unction/mapvalues": "3.14.0",
+    "@unction/splat": "2.13.0",
+    "@unction/zip": "3.13.0",
     "ramda": "0.24.1"
   },
   "files": [
