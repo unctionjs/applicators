@@ -61,11 +61,11 @@
     "@unction/applicator": "2.5.0",
     "@unction/isarray": "2.8.0",
     "@unction/isobject": "2.8.0",
-    "@unction/keys": "3.30.0",
-    "@unction/length": "1.31.0",
-    "@unction/mapvalues": "3.32.0",
-    "@unction/splat": "2.31.0",
-    "@unction/zip": "3.31.0",
+    "@unction/keys": "3.31.0",
+    "@unction/length": "1.32.0",
+    "@unction/mapvalues": "3.33.0",
+    "@unction/splat": "2.32.0",
+    "@unction/zip": "3.32.0",
     "ramda": "0.24.1"
   },
   "files": [
