@@ -63,9 +63,9 @@
     "@unction/isobject": "2.15.0",
     "@unction/keys": "3.43.0",
     "@unction/length": "1.46.0",
-    "@unction/mapvalues": "3.45.0",
+    "@unction/mapvalues": "3.45.1",
     "@unction/splat": "2.43.0",
-    "@unction/zip": "3.48.0",
+    "@unction/zip": "3.49.0",
     "ramda": "0.24.1"
   },
   "files": [
