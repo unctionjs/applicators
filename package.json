@@ -61,13 +61,13 @@
   },
   "dependencies": {
     "@unction/applicator": "3.0.0",
-    "@unction/isarray": "3.0.0",
-    "@unction/isobject": "3.0.0",
-    "@unction/keys": "4.0.0",
-    "@unction/length": "2.0.0",
-    "@unction/mapvalues": "4.0.0",
-    "@unction/splat": "3.0.0",
-    "@unction/zip": "4.0.0",
+    "@unction/isarray": "4.0.0",
+    "@unction/isobject": "4.0.0",
+    "@unction/keys": "5.0.0",
+    "@unction/length": "3.0.0",
+    "@unction/mapvalues": "5.0.0",
+    "@unction/splat": "4.0.0",
+    "@unction/zip": "5.0.0",
     "ramda": "0.24.1"
   },
   "files": [
