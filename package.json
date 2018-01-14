@@ -64,7 +64,7 @@
     "@unction/isarray": "5.0.0",
     "@unction/isobject": "5.0.0",
     "@unction/keys": "8.0.0",
-    "@unction/length": "6.0.0",
+    "@unction/length": "7.0.0",
     "@unction/mapvalues": "8.0.0",
     "@unction/splat": "7.0.0",
     "@unction/zip": "9.0.0",
