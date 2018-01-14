@@ -67,7 +67,7 @@
     "@unction/length": "6.0.0",
     "@unction/mapvalues": "8.0.0",
     "@unction/splat": "7.0.0",
-    "@unction/zip": "8.0.0",
+    "@unction/zip": "9.0.0",
     "ramda": "0.24.1"
   },
   "files": [
