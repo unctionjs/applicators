@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> (Array<mixed -> mixed> | RecordType<KeyType, mixed -> mixed>)<T> -> (ArrayType | RecordType)<T> -> (ArrayType | RecordType)<T>
+> (Array<mixed => mixed> | RecordType<KeyType, mixed => mixed>)<T> => (ArrayType | RecordType)<T> => (ArrayType | RecordType)<T>
 
 Takes a list of functions and a list of values and applies the values to the functions.
 
