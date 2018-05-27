@@ -1,4 +1,4 @@
-/* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-magic-numbers, id-length */
+/* eslint-disable no-magic-numbers, id-length */
 import {test} from "tap"
 
 import recordfrom from "@unction/recordfrom"
