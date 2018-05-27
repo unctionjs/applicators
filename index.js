@@ -4,7 +4,10 @@ import applicator from "@unction/applicator"
 import zip from "@unction/zip"
 import length from "@unction/length"
 
-export default function applicators (unctions: Array<mixed => mixed> | RecordType<KeyType, mixed => mixed>): Function {
+import type {UnaryFunctionType} from "types"
+import type {MapperFunctionType} from "types"
+
+export default function applicators (unctions: Array<MapperFunctionType> | RecordType<KeyType, MapperFunctionType>): UnaryFunctionType {
   const zipUnctions = zip(unctions)
 
   return function applicatorsUnctions (functor: ArrayType | RecordType): ArrayType | RecordType {
