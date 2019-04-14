@@ -17,7 +17,7 @@
   "homepage": "https://github.com/unctionjs/applicators#readme",
   "repository": "github:unctionjs/applicators",
   "bugs": "https://github.com/unctionjs/applicators/issues",
-  "main": "transpiled/main.js",
+  "main": "main.js",
   "nyc": {
     "require": [
       "@babel/register"
@@ -77,5 +77,5 @@
     "browser.js.map"
   ],
   "module": "index.js",
-  "browser": "transpiled/browser.js"
+  "browser": "browser.js"
 }
