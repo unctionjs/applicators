@@ -3,9 +3,11 @@ import splat from "@unction/splat";
 import applicator from "@unction/applicator";
 import zip from "@unction/zip";
 import length from "@unction/length";
-export default function applicators(unctions) {
+export default function applicators (unctions) {
   const zipUnctions = zip(unctions);
-  return function applicatorsUnctions(functor) {
+
+
+  return function applicatorsUnctions (functor) {
     if (length(unctions) !== length(functor)) {
       throw new Error("left and right werent the same size");
     }

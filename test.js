@@ -1,10 +1,10 @@
 /* eslint-disable no-magic-numbers, id-length */
-import {test} from "tap"
+import {test} from "tap";
 
-import recordfrom from "@unction/recordfrom"
-import {inc} from "ramda"
-import {dec} from "ramda"
-import applicators from "./index"
+import recordfrom from "@unction/recordfrom";
+import {inc} from "ramda";
+import {dec} from "ramda";
+import applicators from "./index";
 
 test(({same, end}) => {
   same(
@@ -22,10 +22,10 @@ test(({same, end}) => {
       {point: {y: 2.2}},
       {point: {z: 423.0}},
     ]
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({same, end}) => {
   same(
@@ -40,10 +40,10 @@ test(({same, end}) => {
       x: 0,
       y: 0,
     }
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({throws, end}) => {
   throws(
@@ -58,7 +58,7 @@ test(({throws, end}) => {
         423.0,
         56,
       ])
-  )
+  );
 
-  end()
-})
+  end();
+});
