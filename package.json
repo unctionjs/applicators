@@ -59,14 +59,14 @@
     "tap": "12.6.1"
   },
   "dependencies": {
-    "@unction/applicator": "3.0.0",
-    "@unction/isarray": "5.1.0",
-    "@unction/isobject": "5.1.0",
+    "@unction/applicator": "4.0.0",
+    "@unction/isarray": "5.2.0",
+    "@unction/isobject": "6.1.0",
     "@unction/keys": "10.0.0",
-    "@unction/length": "9.0.0",
-    "@unction/mapvalues": "9.0.0",
-    "@unction/splat": "9.0.0",
-    "@unction/zip": "11.0.0",
+    "@unction/length": "10.1.0",
+    "@unction/mapvalues": "10.1.0",
+    "@unction/splat": "10.1.0",
+    "@unction/zip": "12.1.0",
     "ramda": "0.24.1"
   },
   "files": [
