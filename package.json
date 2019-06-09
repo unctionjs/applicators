@@ -59,14 +59,14 @@
     "tap": "12.6.1"
   },
   "dependencies": {
-    "@unction/applicator": "4.0.2",
-    "@unction/isarray": "5.4.0",
-    "@unction/isobject": "6.3.0",
-    "@unction/keys": "10.3.0",
-    "@unction/length": "10.3.0",
-    "@unction/mapvalues": "10.3.0",
-    "@unction/splat": "10.4.0",
-    "@unction/zip": "12.5.0",
+    "@unction/applicator": "4.1.0",
+    "@unction/isarray": "5.6.0",
+    "@unction/isobject": "6.5.0",
+    "@unction/keys": "10.5.0",
+    "@unction/length": "10.5.0",
+    "@unction/mapvalues": "10.5.0",
+    "@unction/splat": "10.6.0",
+    "@unction/zip": "12.7.0",
     "core-js": "3.0.1",
     "ramda": "0.24.1"
   },
