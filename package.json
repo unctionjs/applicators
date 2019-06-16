@@ -67,7 +67,6 @@
     "@unction/mapvalues": "10.5.0",
     "@unction/splat": "10.6.0",
     "@unction/zip": "12.7.0",
-    "core-js": "3.0.1",
     "ramda": "0.24.1"
   },
   "files": [
