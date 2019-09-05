@@ -7,11 +7,11 @@ export default function applicators (unctions) {
   const zipUnctions = zip(unctions);
 
 
-  return function applicatorsUnctions (functor) {
-    if (length(unctions) !== length(functor)) {
+  return function applicatorsUnctions (enumerable) {
+    if (length(unctions) !== length(enumerable)) {
       throw new Error("left and right werent the same size");
     }
 
-    return mapValues(splat(applicator))(zipUnctions(functor));
+    return mapValues(splat(applicator))(zipUnctions(enumerable));
   };
 }
