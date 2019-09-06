@@ -2,7 +2,7 @@
 import recordfrom from "@unction/recordfrom";
 import {inc} from "ramda";
 import {dec} from "ramda";
-import applicators from "./index.ts";
+import applicators from "./index";
 
 test(() => {
   expect(applicators([
