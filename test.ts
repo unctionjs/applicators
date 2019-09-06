@@ -4,7 +4,7 @@ import {inc} from "ramda";
 import {dec} from "ramda";
 import applicators from "./index";
 
-test(() => {
+test("works", () => {
   expect(applicators([
     recordfrom(["point", "x"]),
     recordfrom(["point", "y"]),
@@ -20,7 +20,7 @@ test(() => {
   ]);
 });
 
-test(() => {
+test("works", () => {
   expect(applicators({
     x: inc,
     y: dec,
@@ -33,7 +33,7 @@ test(() => {
   });
 });
 
-test(() => {
+test("works", () => {
   expect(() =>
     applicators([
       recordfrom(["point", "x"]),
