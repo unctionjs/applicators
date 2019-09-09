@@ -54,14 +54,14 @@
     "typescript": "3.5.1"
   },
   "dependencies": {
-    "@unction/applicator": "4.1.2",
-    "@unction/isarray": "5.10.0",
-    "@unction/isobject": "6.9.0",
-    "@unction/keys": "10.9.0",
-    "@unction/length": "10.9.0",
-    "@unction/mapvalues": "10.9.0",
-    "@unction/splat": "10.10.0",
-    "@unction/zip": "12.11.0",
+    "@unction/applicator": "4.1.3",
+    "@unction/isarray": "5.11.0",
+    "@unction/isobject": "6.10.0",
+    "@unction/keys": "10.10.0",
+    "@unction/length": "10.10.0",
+    "@unction/mapvalues": "10.10.0",
+    "@unction/splat": "10.11.0",
+    "@unction/zip": "12.12.0",
     "ramda": "0.24.1"
   },
   "files": [
