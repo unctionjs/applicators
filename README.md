@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> (Array<unknown => unknown> | RecordType<KeyType, unknown => unknown>)<T> => (ArrayType | RecordType)<T> => (ArrayType | RecordType)<T>
+> EnumerableType<MapperFunctionType<A, B>, C> => EnumerableType<A, C> => EnumerableType<B, C>
 
 Takes a list of functions and a list of values and applies the values to the functions.
 
