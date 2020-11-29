@@ -62,13 +62,13 @@
   },
   "dependencies": {
     "@unction/applicator": "^4.1.4",
-    "@unction/isarray": "^5.12.0",
-    "@unction/isobject": "^6.11.0",
-    "@unction/keys": "^10.11.0",
-    "@unction/length": "^10.11.0",
-    "@unction/mapvalues": "^10.11.0",
-    "@unction/splat": "^10.12.0",
-    "@unction/zip": "^12.13.0",
+    "@unction/isarray": "^5.13.0",
+    "@unction/isobject": "^6.12.0",
+    "@unction/keys": "^10.12.0",
+    "@unction/length": "^10.12.0",
+    "@unction/mapvalues": "^10.12.0",
+    "@unction/splat": "^10.13.0",
+    "@unction/zip": "^12.14.0",
     "ramda": "0.24.1"
   }
 }
