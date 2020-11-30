@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> EnumerableType<MapperFunctionType<A, B>, C> => EnumerableType<A, C> => EnumerableType<B, C>
+> Array<MapperFunctionType<A, B>> | Set<MapperFunctionType<A, B>> | RecordType<C, MapperFunctionType<A, B>> => Record<string | number | symbol, A> | Map<C, A> => Record<string | number | symbol, B> | Map<C, B>
 
 Takes a list of functions and a list of values and applies the values to the functions.
 

@@ -6,10 +6,10 @@ import length from "@unction/length";
 
 import {MapperFunctionType} from "./types";
 
-export default function applicators<A, B, C> (unctions: EnumerableType<MapperFunctionType<A, B>, C>) {
+export default function applicators<A, B, C> (unctions: Array<MapperFunctionType<A, B>> | Set<MapperFunctionType<A, B>> | RecordType<C, MapperFunctionType<A, B>>) {
   const zipUnctions = zip(unctions);
 
-  return function applicatorsUnctions (enumerable: EnumerableType<A, C>): EnumerableType<B, C> {
+  return function applicatorsUnctions (enumerable: Record<string | number | symbol, A> | Map<C, A>): Record<string | number | symbol, B> | Map<C, B> {
     if (length(unctions) !== length(enumerable)) {
       throw new Error("left and right werent the same size");
     }
