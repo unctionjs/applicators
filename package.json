@@ -73,9 +73,9 @@
     "@unction/isobject": "^6.13.0",
     "@unction/keys": "^10.13.0",
     "@unction/length": "^10.13.0",
-    "@unction/mapvalues": "^10.12.0",
+    "@unction/mapvalues": "^10.13.0",
     "@unction/splat": "^10.14.0",
-    "@unction/zip": "^12.15.0",
+    "@unction/zip": "^12.16.0",
     "ramda": "0.24.1"
   }
 }
